@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <script type="text/javascript" src="script.js" charset="utf-8"></script>
+</head>
+<body onload="initCounries()">
+    <select id="combo-country" onchange="initCityes()">
+
+    </select>
+    <select id="combo-city" >
+        
+    </select>
+    <button onclick="loadJson()">show</button>
+    <div>===================================</div>
+    <div>Country: <a id="country"></a>Region: <a id="city"></a></div>
+    <div>Lat: <a id="lat"></a>Lon: <a id="lon"></a></div>
+    <div id="temp_c"></div>
+    <div id="temp_f"></div>
+    <div id="localtime" ></div>
+    <div>isDay: <a id="day"></a> Status: <a id="status"></a></div>
+    <div id="pressure"></div>
+    <div id="wind_kph"></div>
+    <div id="wind_mph"></div>
+    <div id="visibility"></div>
+</body>
+</html>
